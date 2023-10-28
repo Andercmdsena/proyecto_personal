@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+:root{
+    --colorPrincipal1: #93B1A6;
+    --backgroundBody: #040D12;
+    --colorBlanco: white;
+}
+
+body{
+    background: var(--backgroundBody);
+}
+/*--------------------------------------------------Menu - header - hero--------------------------------------*/
+.barra{
+    background: var(--backgroundBody) !important;
+
+}
+.barra div a{
+    color: white !important;
+    text-align: center !important;
+}
+
+a img{
+    width: 55px;
+    height: 55px;
+    
+}
+
+a{
+    margin: 0 25px 0 25px;
+}
+a img{
+    display: block;
+}
+
+
+.hero{
+    margin: 30px;
+    padding: 5px 10px;
+}
+.hero h1{
+    text-align: center;
+    color: var(--colorPrincipal1);
+    margin-bottom: 30PX;
+}
+
+.hero img{
+    width: -webkit-fill-available;
+    height: 700px;
+    border-radius: 20px;
+    margin-bottom: 30PX;
+}
+header::after{
+    content: "";
+    height: 4px;
+    background: var(--colorPrincipal1);
+    display: block;
+    width: 100%;
+}
+/*------------------------------------------Main - father-card-------------------------------------------------*/
+
+.father-card{
+    margin: 30px;
+    padding: 5px 10px;
+    position: relative;
+}
+.father-card h2{
+    color: var(--colorPrincipal1);
+    text-align: center;
+    margin-bottom: 25px;
+}
+.father-card div{
+    background: var(--colorBlanco);
+    padding: 20px;
+    transition: 0.5s;
+}
+.father-card div h3{
+    background: var(--colorBlanco);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.father-card div p{
+    color: var(--backgroundBody);
+    padding: 0 80px 50px 80px;
+    
+}
+.father-card .texto:hover{
+    transform: translate(15px, 15px);
+    
+}
+.backImg{
+    background: var(--colorPrincipal1) !important;
+    z-index: -1;
+    position: absolute;
+    width: 1210px;
+    height: 355px;
+    bottom: -10px;
+    left: 30px;
+}
+.card-item{
+    margin: 30px;
+    padding: 5px 10px;
+    position: relative;
+}
+
+.father-card-multiples{
+    display: flex;
+    align-items: center;
+}
+
+.card-item div{
+    background: var(--colorBlanco);
+    padding: 20px;
+    transition: 0.5s;
+}
+.card-item div h4{
+    background: var(--colorBlanco);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card-item div p{
+    color: var(--backgroundBody);
+    
+    
+}
+.card-item img{
+    width: 150px;
+    height: 150px;
+    margin: 0 74px;
+}
+.card-item .texto:hover{
+    transform: translate(15px, 15px);
+    
+}
+.backImg1{
+    background: var(--colorPrincipal1) !important;
+    z-index: -1;
+    position: absolute;
+    width: 345px;
+    height: 525px;
+    bottom: -10px;
+    left: 30px;
+}
+.linea2::after{
+    content: "";
+    height: 4px;
+    background: var(--colorPrincipal1);
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+}
+.linea3::after{
+    content: "";
+    height: 4px;
+    background: var(--colorPrincipal1);
+    display: block;
+    width: 100%;
+    margin-top: 35px;
+}
+.linea4::after{
+    content: "";
+    height: 4px;
+    background: var(--colorPrincipal1);
+    display: block;
+    width: 100%;
+    margin-top: 35px;
+}
+/*----------------------------------------------Seccion de preguntas frecuentes------------------------------------------*/
+.preguntas .pregunta p{
+    background: var(--colorBlanco);
+    color: var(--backgroundBody);
+    padding: 20px 0px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 25px;
+
+}
+
+.preguntas .pregunta p:nth-last-of-type(1){
+    margin-bottom: 0;
+}
+
+
+.preguntas .respuesta p{
+    color: var(--colorBlanco);
+} 
+.preguntas .respuesta{
+    background: white;
+    border-top-left-radius: 30px;
+    margin-left: 32px;
+    width: 360px;
+} 
+
+/*.backImg{
+    background: var(--colorPrincipal1) !important;
+    z-index: -1;
+    position: absolute;
+    width: 1210px;
+    height: 305px;
+    bottom: -10px;
+    left: 30px;
+}*/
